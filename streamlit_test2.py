@@ -161,7 +161,7 @@ def compare_dict(df6, proofs_dictionary):
 
 if st.button("Run Script"):
     total_lines = []
-    for i in glob.glob(path):
+    for i in glob.glob(r'\\199.221.111.170\qcom\QCEW Proof Review Team\ARS\Print Files\FY 22 - NVS 1st Mailing\*.txt'):
         lines = []
         with open(i) as f:
             lines = f.readlines()
